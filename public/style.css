@@ -14,9 +14,9 @@ body {
 }
 
 
-/* ---------- SECTION ONE ------------- */
+/* ---------- HOME ------------- */
 
-.section-one {
+.home-section {
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -31,23 +31,129 @@ body {
   background: #e0e0eb;
 }
 
-.section-one h1 {
+.home-section h1 {
   padding-top: 5%;
+  font-size: 2.2em;
+  color: #0f0207;
 }
 
-.section-one-buttons {
+.home-section-links {
   display: flex;
   justify-content: space-evenly;
   padding-top: 5%;
 }
 
-.section-one button, a {
-  width: 120px;
-  height: 50px;
-  border-radius: 10px;
+.home-links {
+  font-size: 20px;
+  margin-top: 5%;
   text-decoration: none;
-  font-size: 15px;
   text-transform: uppercase;
-  background: #000d33;
-  color: white;
+  color: #1a0000;
+  background: #e0e0eb;
+}
+
+.home-links:hover {
+  opacity: 0.7;
+}
+
+
+
+/* ------------ ABOUT --------------- */
+
+.about-section {
+  margin: 10% auto;
+  text-align: center;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section button {
+  margin: 1% auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background: #fcad26;
+  font-size: 16px;
+  font-weight: 300;
+	color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 80px;
+  margin: 0 auto;
+	box-shadow: 0 6px #efa424;
+  border-radius: 20px;
+}
+
+.about-section button:hover {
+	box-shadow: 0 4px #efa424;
+	top: 2px;
+}
+
+.about-section button:active {
+	box-shadow: 0 0 #efa424;
+	top: 6px;
+}
+
+.about-text {
+  width: 200px;
+  height: 300px;
+  margin: 4% 0 1% 44%;
+  line-height: 1.8em;
+  font-size: 20px;
+  visibility: hidden;
+  
+}
+
+
+@keyframes enter-text {
+  0%{
+    margin-left: 0%;
+    opacity: 0;
+  }
+  100%{
+    margin-left: 44%;
+    opacity: 1;
+  }
+}
+
+.about-links {
+  font-size: 20px;
+  margin: 3% 5%;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1a0000;
+  background: white;
+}
+
+.about-links:hover {
+  opacity: 0.7;
+}
+
+.about-section h1 {
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+
+
+/* ---------- GALLERY SECTION ------------- */
+
+.gallery-links {
+  font-size: 20px;
+  /* margin: 3% 5%; */
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1a0000;
+  background: white;
+}
+
+.gallery-section-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
