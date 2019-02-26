@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Gallery page</title>
-</head>
-<body>
-  <h1>Gallery</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gallery page</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="gallery-section container">
+        <h1>Gallery</h1>
+        <div class="gallery-content">
+        <div class="arrow-left-img"><button id="arrow-left"></button></div>
+        <img src="shelley1.jpg" alt="image0" id="image-gallery">
+        <div class="arrow-right-img"><button id="arrow-right"></button></div>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
