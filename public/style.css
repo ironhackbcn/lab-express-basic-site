@@ -1,0 +1,53 @@
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* ---------- SECTION ONE ------------- */
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10% auto;
+  width: 600px;
+  height: 350px;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 22px;
+  background: #e0e0eb;
+}
+
+.section-one h1 {
+  padding-top: 5%;
+}
+
+.section-one-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5%;
+}
+
+.section-one button, a {
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: #000d33;
+  color: white;
+}
