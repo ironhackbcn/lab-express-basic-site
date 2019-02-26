@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab:300,400");
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+p {
+  margin: 0;
+}
+
+/* ---- layout ---- */
+
+.container {
+  margin: 0 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+/* ---- components ---- */
+
+.body-home {
+  background-image: url("shelley-home.png");
+  background-size: cover;
+}
+
+h1 {
+  font-family: Roboto Slab, "Courier New", Courier, monospace;
+  font-weight: 300;
+  font-size: 2.5em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(61, 52, 48);
+  height: 50px;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-self: center;
+}
+
+nav ul li {
+  margin: 0 50px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 200px 0;
+}
+.home img {
+  background-color: aliceblue;
+}
+.home div {
+  display: flex;
+  justify-content: center;
+}
+
+.home h1 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 20px 0;
+  font-size: 3em;
+  font-weight: 100;
+  font-family: Roboto Slab, "Courier New", Courier, monospace;
+  border-bottom: 2px solid #000;
+}
+
+.home h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.about-section {
+  margin: 75px auto;
+}
+
+p {
+  letter-spacing: 2;
+  line-height: 32px;
+}
+
+.about-section div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.about-section img {
+  width: auto;
+  height: 75px;
+}
+
+.about-section img:last-child {
+  width: auto;
+  height: 150px;
+}
+
+.gallery-section {
+  margin-top: 75px;
+}
+
+.arrow-left-img {
+  background-image: url("back.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+.arrow-right-img {
+  background-image: url("right-arrow.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.gallery-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-content: center;
+}
+
+#image-gallery{
+  width: auto;
+  height: 300px;
+}
+
+.error-section{
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+}
+
+.img-error{
+  border-radius: 50%;
+  width: auto;
+  height: 150px;
+  margin-right: 25px;
+}
