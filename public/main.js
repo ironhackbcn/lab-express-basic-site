@@ -2,7 +2,7 @@
 
 const main = () => {
 
-
+console.log('JS running')
 
 
 
