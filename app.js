@@ -21,7 +21,7 @@ app.get('/photo-gallery-page', (req, res) => {
 
 app.use((req, res, next) => {
     res.status(404);
-    res.sendfFile('/views/');
+    res.sendFile('/views/');
   });
 
 

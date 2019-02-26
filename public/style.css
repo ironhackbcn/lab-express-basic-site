@@ -1,3 +1,86 @@
-h1{
+*{    margin: 0;
+    padding: 0;
+}
+  
+body{
+     font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+}
+  
+.main-nav{
+     margin: 35px 35px;
+     display: flex;
+     justify-content: space-between;
+  
+}
+  
+.logo img {
+    width: 100px;
+    margin: 35px 35px;
+    float: left;
+
+}
+
+.list-nav{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.list-nav li{
+    display: inline-block;
+    margin: 50px 20px;
+    color: white;
+}
+
+.list-nav li:hover{
+    color:red;
+    border-bottom: 5px solid red;
+    transition: all 0.5s ease-in;
+    opacity: 0.7;
+    padding: 10px 0;
+}
+
+.title1{
+position: absolute;
+width: 1000px;
+top: 30%;
+left: 15%;
+color: white;
+font-weight: 400;
+
+}
+
+.header1{
+background-image: url(madmen.jpg);
+height: 100vh;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+.buttons{
+margin-top: 25px;
+color: red;
+
+}
+
+.first-button {
+    border: 1px solid red;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
     color:red;
 }
+
+.first-button:hover {
+background-color:  red;
+color: white;
+transition: all 0.5s ease-in;
+}
+
+
+
+
+
