@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.is-bg-home{
+  background-image: url('/sample-01.jpg');
+  background-size: cover;
+  background-position: center 65%;
+}
+
+.is-bg-about{
+  background-image: url('/sample-02.jpg');
+  background-size: cover;
+  background-position: center 65%;
+}
+
+.is-bg-trips{
+  background-image: url('/sample-03.jpg');
+  background-size: cover;
+  background-position: center 85%;
+}
+
+.is-gradient-dark{
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
