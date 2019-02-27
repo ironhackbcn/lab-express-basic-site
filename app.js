@@ -5,8 +5,7 @@ const app = express();
 const port = 3000;
 
 //Middleware statics
-app.use(express.static(__dirname + "/public/css"));
-app.use(express.static(__dirname + "/public/images"));
+app.use(express.static(__dirname + "/public/"));
 app.use(express.static(__dirname + "/node_modules/bulma/css"));
 
 //Routes

@@ -11,19 +11,19 @@ body {
 }
 
 .is-bg-home{
-  background-image: url('/sample-01.jpg');
+  background-image: url('/images/sample-01.jpg');
   background-size: cover;
   background-position: center 65%;
 }
 
 .is-bg-about{
-  background-image: url('/sample-02.jpg');
+  background-image: url('/images/sample-02.jpg');
   background-size: cover;
   background-position: center 65%;
 }
 
 .is-bg-trips{
-  background-image: url('/sample-03.jpg');
+  background-image: url('/images/sample-03.jpg');
   background-size: cover;
   background-position: center 85%;
 }
