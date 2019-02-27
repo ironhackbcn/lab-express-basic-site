@@ -4,12 +4,12 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
+//public mapped
 app.use(express.static(__dirname + `/public`));
 
+//routing
 app.get("/", (req, res) => res.sendFile(__dirname + `/views/index.html`));
-app.get("/about", (req, res) => {
-    res.sendFile(__dirname + `/views/about.html`)
-});
+app.get("/about", (req, res) => res.sendFile(__dirname + `/views/about.html`));
 app.get("/photo", (req, res) => res.sendFile(__dirname + `/views/photo.html`));
 
 //404 MIDDLEWARE
