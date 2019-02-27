@@ -84,3 +84,15 @@ transition: all 0.5s ease-in;
 
 
 
+
+
+
+
+
+.header2{
+    background-image: url(error404.gif);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
