@@ -1,0 +1,58 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ---- typography ---- */
+
+body {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+  margin-top: 0;
+}
+
+/* ---- layout ---- */
+
+nav {
+  background: rgb(25,33,41);
+  height: 50px;
+}
+
+ul {
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+li {
+  display: inline;
+  padding: 13px 20px; 
+}
+
+a {
+  color: white;
+}
+
+#error-page {
+  background-image: url('../images/notfound.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#error-page h1{
+  margin: 400px 150px;
+  font-size: 3.5em;
+}
+
