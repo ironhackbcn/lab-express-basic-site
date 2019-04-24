@@ -1,0 +1,40 @@
+.photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  font-size: 90px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #AB6679;
+}
+
+
+.img-flex {
+  width: 80vw;
+  background-image: url("https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  color: white;
+  text-align: center;
+  padding-top: 35px ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-flex img{
+  margin: 20px;
+}
+
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #AB6679;
+  text-align: center;
+  margin: 30px auto;
+}
