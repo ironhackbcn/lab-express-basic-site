@@ -5,12 +5,14 @@ app.use(express.static('public'));
 
 //INDEX.HTML
 app.get('/home', ( request, response, next) => {
-  response.status(200).sendFile(__dirname + '/public/views/index.html');
+  response.status(200);
+  response.sendFile(__dirname + '/public/views/index.html');
 });
 
 //ABOUT.HTML
 app.get('/aboutme', (request, response, next) => {
-  response.status(200).sendFile(__dirname + '/public/views/about.html');
+  response.status(200);
+  response.sendFile(__dirname + '/public/views/about.html');
 });
 
 //PHOTOS.HTML
@@ -27,5 +29,5 @@ app.get('/*', (request, response, next)=>{
 
 //START SERVER
 app.listen(3002, () => {
-  console.log('My first express up is running');
+  console.log('lab express server is running');
 });
