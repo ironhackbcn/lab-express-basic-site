@@ -19,7 +19,7 @@ app.get('/about', (request, response, next)=> {
 
 app.get('/*', (request, response, next)=> {
   response.status(404);
-  response.sendFile(__dirname + '/public/views/notFound.html');
+  response.sendFile(__dirname + '/public/views/notFound.html'); //can i link a notFound.html???
 });
 
 

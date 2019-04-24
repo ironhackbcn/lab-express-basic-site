@@ -10,7 +10,8 @@ h1 {
   font-size: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  color: #AB6679
+  color: #AB6679;
+  margin: 40px;
 }
 
 p {
@@ -19,7 +20,7 @@ p {
 }
 
 .aboutme {
-  width: 80vh;
+  width: 80vw;
   background-image: url("https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   color: white;
   text-align: center;
@@ -30,7 +31,7 @@ p {
 
 
 .aboutwebsite {
-  width: 80vh;
+  width: 80vw;
   background-color: white;
   color: #AB6679;
   text-align: center;
@@ -42,7 +43,11 @@ p {
   color: #AB6679;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
+  text-decoration: underline;
+  
 }
+
+
 
 p {
   padding-top: 20px;
@@ -58,5 +63,16 @@ p {
 h2{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 45px;
+}
+
+.nav{
+  background-image: url("https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  width: 80vw;
+  /* position: fixed; how can i fix the nav bar??*/
+}
+
+.nav-link{
+  color: white;
+  font-size: 25px;
 }
 

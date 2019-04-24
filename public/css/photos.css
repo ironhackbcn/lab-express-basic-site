@@ -5,12 +5,20 @@
   align-items: center;
   align-content: center;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 
 h1 {
   font-size: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: #AB6679;
+  margin: 40px;
 }
 
 
@@ -36,5 +44,26 @@ a{
   font-size: 25px;
   color: #AB6679;
   text-align: center;
-  margin: 30px auto;
+  margin: auto auto 30px auto;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: #AB6679;
+}
+
+.nav{
+  background-image: url("https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  width: 80vW;
+  /* position: fixed; how can i fix the nav bar??*/
+}
+
+.nav-link{
+  color: white;
+  font-size: 25px;
+}
+
+.photos a{  
+  text-decoration: underline;
 }
