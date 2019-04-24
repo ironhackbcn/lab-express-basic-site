@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  font-size: 90px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #AB6679;
+  margin: 40px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.aboutme {
+  width: 80vw;
+  background-image: url("https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  color: white;
+  text-align: center;
+  height: 300px;
+  padding-top: 35px ;
+
+}
+
+
+.aboutwebsite {
+  width: 80vw;
+  background-color: white;
+  color: #AB6679;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 70px;
+}
+
+.aboutwebsite a {
+  color: #AB6679;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+  
+}
+
+
+
+p {
+  padding-top: 20px;
+}
+
+.img-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+}
+
+.nav{
+  background-image: url("https://images.pexels.com/photos/1040473/pexels-photo-1040473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  width: 80vw;
+  /* position: fixed; how can i fix the nav bar??*/
+}
+
+.nav-link{
+  color: white;
+  font-size: 25px;
+}
+
