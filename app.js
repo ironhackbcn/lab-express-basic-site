@@ -9,9 +9,14 @@ app.get('/', (request, response, next)=>{
   response.sendFile(__dirname + '/puplic/index.html');
 });
 
-//About route
-app.get('/about', (request, response, next)=>{
-  response.sendFile(__dirname + '/puplic/about.html')
+//About michael route
+app.get('/about-michael', (request, response, next)=>{
+  response.sendFile(__dirname + '/puplic/about-michael.html')
+})
+
+//About dwight route
+app.get('/about-dwight', (request, response, next)=>{
+  response.sendFile(__dirname + '/puplic/about-dwight.html')
 })
 
 // Gallery route
