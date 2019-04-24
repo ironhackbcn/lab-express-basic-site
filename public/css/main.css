@@ -4,12 +4,16 @@ html {
 
 #photo-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-#photo-container > img {
+.photo {
   width: 30%;
-  height: auto;
-  /* margin: 0 15px 25px 15px; */
+  min-width: 150px;
+}
+
+img {
+  width: 100%;
+  padding-bottom: 20px;
 }
