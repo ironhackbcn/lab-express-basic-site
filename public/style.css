@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;    
+}
+
+body {
+    background: center / cover no-repeat url('https://www.google.es/search?hl=en&biw=1109&bih=673&tbm=isch&sa=1&ei=trPAXL2yHIujUNynhuAP&q=background+images&oq=background&gs_l=img.1.1.0i67l3j0j0i67l3j0l2j0i67.5668.10450..12853...0.0..1.108.894.11j1......2....1..gws-wiz-img.....0..35i39.gdqMiD2FArs#imgrc=_IbFXhw1iBus9M:');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 100px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+h2 {
+    margin: 0 auto;
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-shadow: 2px 3px black;
+}
+img {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 10%;
+    padding: 10px;
+ }
+
+ 
