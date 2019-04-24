@@ -1,0 +1,44 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  /* padding: 0 0 50px 0; */
+  width: 98vw;
+  min-height: 100vh;
+  background: #f46b45;  
+  background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eea849, #f46b45);
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  color: white;
+}
+
+.about-container {
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+p, ul {
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+

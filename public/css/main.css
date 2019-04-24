@@ -5,8 +5,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 98vw;
+  min-height: 100vh;
   background: #f46b45;  
   background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #eea849, #f46b45);
