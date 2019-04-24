@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static('public'));
 
 //INDEX.HTML
-app.get('/', ( request, response, next) => {
+app.get('/home', ( request, response, next) => {
   response.status(200).sendFile(__dirname + '/public/views/index.html');
 });
 
