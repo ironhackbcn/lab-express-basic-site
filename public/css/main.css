@@ -57,11 +57,12 @@ footer p {
   /* width: 50%; */
 }
 
-.desc p h1 {
-  text-align: center;
+.desc p,h1 {
+  text-align: left;
   color: white;
   height: 0 auto;
 }
+
 
 footer{
   color: white;
