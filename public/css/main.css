@@ -1,0 +1,15 @@
+html {
+  width: 98vw;
+}
+
+#photo-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#photo-container > img {
+  width: 30%;
+  height: auto;
+  /* margin: 0 15px 25px 15px; */
+}
