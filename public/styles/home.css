@@ -51,6 +51,7 @@ p {
   "nav    nav    nav"
   "main   main   main"
   "main   main   main"
+  "main   main   main"
   "footer footer footer";
   height: 100vh;  
 }
@@ -89,6 +90,9 @@ footer {
     grid-template-areas:
       "header header header"
       "nav    main   main"
+      "nav    main   main"
+      "nav    main   main"
+      "nav    main   main"
       "footer footer footer";
   }
 }
@@ -96,5 +100,13 @@ footer {
 /* Logos and shit */
 
 header img {
-  width: 3.5em;
+  width: 10%;
+  height: 90%;
+  display: flex;
+  align-self: center;
+}
+
+header h1 {
+  display: flex;
+  align-self: center;
 }
