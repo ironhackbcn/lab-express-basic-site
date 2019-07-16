@@ -11,20 +11,23 @@ html {
     margin: 0;
     padding: 0;
     background-color: black;
+
   }
   
   
   /* ---- typography ---- */
   
   body {
-    color: red;
-    font-family:'Aladin', cursive;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 147%;
+    text-align: center;
   }
   
   h1 {
-
+    color: red;
+    font-family:'Aladin', cursive;
   }
   
   h2 {}
@@ -49,6 +52,16 @@ html {
   
   /* ---- layout ---- */
   
+.main-about{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main-about a{
+  color: red;
+}
+
   #site-header {
     padding: 30px 0;
     color: white;
@@ -103,26 +116,39 @@ html {
 
   }
 
-  .galeria-header{
+  h1{
     text-align: center;
     text-emphasis: bold;
   }
-  
-  .flashit{
-    background-color:#f2f;
-    -webkit-animation: flash linear 1s infinite;
-    animation: flash linear 1s infinite;
+
+  .main-animated-image{
+    animation: opacityAni 2s infinite;
+
   }
-  @-webkit-keyframes flash {
-    0% { opacity: 1; } 
-    50% { opacity: .1; } 
-    100% { opacity: 1; }
+
+  @keyframes opacityAni {
+    0% {
+      opacity: 0;
+      filter: alpha(opacity=0);
+    }
+    10% {
+      opacity: 1;
+      filter: alpha(opacity=50);
+    }
+    20% {
+      opacity: 0;
+      filter: alpha(opacity=0);
+    }
+    25% {
+      filter: invert(1);
+    }
+  };
+
+  img.spooky{
+    margin: 10px;
+    width: 100vw;
   }
-  @keyframes flash {
-    0% { opacity: 1; } 
-    50% { opacity: .1; } 
-    100% { opacity: 1; }
-  }
+
   /* ---- components ---- */
   
   .button {
