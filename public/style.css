@@ -1,0 +1,79 @@
+
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* ---- typography ---- */
+  
+  body {
+    color: #111;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+    padding:18px;
+  }
+  
+  h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: black;
+  }
+  
+  h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+  }
+  
+  h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+.cervezas-varias{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+}
+.cerveza-Damm{
+  text-align: center;
+  border: black 50px solid;
+}
+img{
+  width: 400px;
+  height: 400px;
+}
+
+.gif{
+    width: 500px;
+    height: 500px;
+}
+
+.linkshome {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+.link{
+  list-style-type: none;
+  text-decoration-style: none;
+  color: black;
+  font-size: 20px;
+}
