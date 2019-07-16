@@ -15,6 +15,7 @@ body {
 
 /* ---- typography ---- */
 
+
 body {
   color: #111;
   font-family: Helvetica, Arial, sans-serif;
@@ -23,6 +24,9 @@ body {
 }
 
 h1 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3em;
+  color: black;
 }
 
 h2 {}
@@ -96,4 +100,58 @@ section.testimonials .button {
   margin-bottom: 10px;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
 
+.navbar li {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 1.5em;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  padding: 20%;
+  -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.gallery-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.photo {
+  width: 40%;
+  height: 38%;
+}
