@@ -11,7 +11,9 @@ app.use(express.static('public'));
 app.get('/',(req, res, next)=> {
     res.sendFile(__dirname +'/public/views/homePage.html')
 })
-
+app.get('/estrella',(req, res, next)=> {
+    res.sendFile(__dirname +'/public/views/estrella.html')
+})
 app.get('/about',(req, res, next)=> {
     res.sendFile(__dirname +'/public/views/aboutPage.html')
 })
