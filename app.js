@@ -14,8 +14,8 @@ app.get('/about', (req, res, next) => {
   res.sendFile(__dirname + '/views/about.html')
 })
 
-app.get('/photo-gallery', (req, res, next) => {
-  res.sendFile(__dirname + '/views/photo-gallery.html')
+app.get('/modelX', (req, res, next) => {
+  res.sendFile(__dirname + '/views/modelX.html')
 })
 
 app.get('/*', (req, res, next) => {
