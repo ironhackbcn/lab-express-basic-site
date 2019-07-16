@@ -90,7 +90,7 @@ p {
 /* ---- components ---- */
 
 p {
-  margin: 50px 3.5%;
+  margin: 50px 3.5% 15px;
   padding: 3%;
   font-family: 'Roboto';
   font-size: 4.5vw;
