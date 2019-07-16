@@ -1,0 +1,396 @@
+
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+/* ---- reset ---- */
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-family: 16px;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* ---- Home Page ---- */
+
+.home-container {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom,
+  #7ed56fd0,
+  #28b485cc), 
+    url("../images/library.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  text-align: center;
+}
+
+.home-container img {
+  width: 180px;
+  height: 180px;
+  clip-path: circle(50% at 50% 50%);
+}
+
+@media (min-width: 768px) {
+  .home-container img {
+    width: 300px;
+    height: 300px;
+    clip-path: circle(50% at 50% 50%);
+  }
+}
+
+.content-box {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .content-box {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+}
+
+.content-box h1 {
+  width: 100%;
+  display: block;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .content-box h1 {
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 10px;
+  }
+}
+
+.content-box h3 {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .content-box h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-decoration: none;
+  }
+}
+
+.about-link {
+  animation: moveInBottom .5s ease-out;
+  color: white;
+  cursor: pointer;
+}
+
+.gallery-link {
+  animation: moveInBottom .5s ease-out .4s;
+  animation-fill-mode: backwards;
+  cursor: pointer;
+}
+
+.about-link a, .gallery-link a {
+  color: white;
+}
+
+
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*--- Biography ----*/
+
+.header-image {
+  height: 300px;
+  background-image: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.904),
+  rgba(255, 255, 255, 0.753)),
+  url("../images/hesse-bio.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 250px, 0 100%);
+}
+
+.bio-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #28b485cc;
+}
+
+.bio-container h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.bio-menu-container {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.bio-body {
+  padding: 10px;
+}
+
+.bio-link {
+  padding: 0;
+  margin: 20px 0;
+  font-size: 19px;
+}
+
+.bio-link a{
+  color: rgb(110, 110, 110);
+}
+
+.bio-container article{
+  overflow: auto;
+}
+
+@media (min-width: 768px) {
+  .bio-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-image {
+    width: 40%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+    text-align: left;
+  }
+
+  .bio-container section {
+    width: 50%;
+    height: 100%;
+  }
+
+  .bio-menu-container {
+    width: 90%;
+  }
+
+  .bio-link {
+    width: 80%;
+    margin-top: 40px;
+  }
+
+  .about-link a, .gallery-link a {
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+
+  .bio-container section {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .bio-container h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+/*--- Gallery ----*/
+.gallery-container {
+  width: 100%;
+  height: 100%;;
+}
+
+.library-link a{
+  color: rgb(110, 110, 110);
+}
+
+.gallery-container header {
+  height: 300px;
+  background-image: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.904),
+  rgba(255, 255, 255, 0.753)),
+  url("../images/hesse-library.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  text-align: center;
+}
+
+.gallery-container section {
+  background-color: white;
+  position: relative;
+}
+
+.gallery-container section h2 {
+  font-size: 40px;
+  color: #28b485cc;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.gallery-container section img {
+  width: 200px;
+}
+
+.book-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 2;
+}
+
+.book-detail-container {
+ background-color: white;
+ width: 80%;
+ height: 500px;
+ position: absolute;
+ left: 50%;
+ top: 30px;
+ transform: translateX(-50%);
+ border-radius: 20px;
+ border: 7px solid #28b485cc;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.book-detail-container p {
+  display: block;
+ }
+
+ .book-detail-container a{
+  color: red;
+  cursor: pointer;
+ }
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(355px, 1fr));
+  grid-gap: 1em;
+  justify-items: center;
+  grid-template-rows: auto;
+}
+
+.books-container section{
+  text-align: center;
+  transition: all .3s linear;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.books-container section:hover{
+  color: #28b485cc;
+  transform: scale(1.05);
+}
+
+.books-container section h3{
+  margin-top: 5px;
+}
+
+@media (min-width: 1060px) {
+  .book-detail-container {
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 7px solid #28b485cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+  .gallery-container section img {
+    width: 150px;
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .gallery-container header {
+    height: 100%;
+    width: 40%;
+    max-width: 450px;
+  }
+
+  .gallery-container section {
+    height: 100%;
+    width: 90%;
+  }
+}
+
+@media (min-width: 1560px) {
+  .gallery-container section img {
+    width: 200px;
+  }
+}
+
+.block {
+  display: block;
+}
