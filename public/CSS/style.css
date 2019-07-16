@@ -22,7 +22,13 @@ body {
   line-height: 147%;
 }
 
-h1 {}
+h1 {
+  font-family: "HelveticaNeue-Regular","Helvetica Neue Regular","Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+
+.error {
+  font-family: 'Roboto Mono', monospace;
+}
 
 h2 {}
 
