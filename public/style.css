@@ -1,0 +1,109 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+
+/* ---- typography ---- */
+
+body {
+  color: #111;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 147%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 50px;
+}
+
+p {
+  margin: 0;
+  font-size: 1.5em;
+  line-height: 160%;
+  margin-top: 20px;
+}
+
+
+
+/* ---- layout ---- */
+
+
+
+#site-header {
+  padding: 15px 0;
+  color: white;
+  background: #000000;
+  height: 100px;
+  width: 100%;
+}
+
+#site-footer {
+  color: white;
+  padding: 60px 0;
+  background: #111;
+}
+
+#site-main {
+  margin-bottom: 60px;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  `q
+  justify-content: center;
+}
+
+#about-site {
+  margin: 50px 400px;
+  text-align: justify;
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+  align-content: center;
+  margin-top: 7px;
+}
+
+.list-style {
+  list-style-type: none;
+  color: white;
+}
+
+.main-pic {
+  width: 100%;
+}
+
+img:hover {
+  transform: scale(0.5) rotateZ(-5deg);
+    -moz-transform: scale(0.5) rotateZ(-5deg);
+    -webkit-transform: scale(0.5) rotateZ(-5deg);
+    -o-transform: scale(0.5) rotateZ(-5deg);
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
