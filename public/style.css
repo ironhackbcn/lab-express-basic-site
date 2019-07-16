@@ -21,13 +21,25 @@ html {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 147%;
+    padding:18px;
   }
   
-  h1 {}
+  h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: black;
+  }
   
-  h2 {}
+  h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+  }
   
-  h3 {}
+  h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+  }
   
   p {
     margin: 0;
@@ -39,14 +51,29 @@ html {
     grid-auto-rows: 1fr;
     gap: 20px;
 }
-
-img{
-  width: 300px;
-  height: 300px;
-
+.cerveza-Damm{
+  text-align: center;
+  border: black 50px solid;
 }
-.gif{
-    width: 30%;
-    height: 50%;
+img{
+  width: 400px;
+  height: 400px;
+}
 
+.gif{
+    width: 500px;
+    height: 500px;
+}
+
+.linkshome {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+.link{
+  list-style-type: none;
+  text-decoration-style: none;
+  color: black;
+  font-size: 20px;
 }
