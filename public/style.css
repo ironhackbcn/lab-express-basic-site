@@ -114,8 +114,9 @@ section.testimonials .button {
 
 .welcome {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  padding: 20%;
+  align-items: flex-end;
   -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 	animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -154,4 +155,19 @@ section.testimonials .button {
 .photo {
   width: 40%;
   height: 38%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.navbar a{
+  text-decoration: none;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 1.5em;
+  color: black;
+  margin: 1.5%;
 }

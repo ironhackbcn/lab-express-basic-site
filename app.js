@@ -19,7 +19,7 @@ app.get('/gallery', (req, res, next) => {
 });
 
 app.get('/*', (req, res, next) => {
-  res.sendFile(__dirname + '/public/views/not-found.html')
+  res.sendFile(__dirname + '/public/publicviews/not-found.html')
 });
 
 app.listen(port, () => {
