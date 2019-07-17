@@ -1,0 +1,295 @@
+/* LAYOUT STYLES */
+
+.header,
+.footer {
+  width: 100%;
+  padding: 1.25rem 2.5rem;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-brand {
+  font-size: 3.5rem;
+  line-height: .875;
+}
+
+.header-brand-link {
+  color: #2c8fcc;
+}
+
+.header-brand-link:hover {
+  color: #000;
+} 
+
+.header-brand-dot {
+  color: #000;
+  font-size: 4.5rem;
+  line-height: .2;
+}
+
+.nav-list,
+.credits-list {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: 'Rubik', sans-serif;
+  font-size: .875rem;
+  line-height: .875;
+}
+
+.nav-list {
+  justify-content: flex-end;
+}
+
+.credits-list {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-list-item {
+  margin: 0 0 0 .875rem;
+}
+
+.nav-list-link,
+.credits-list-link {
+  color: #444;
+  font-weight: 700;
+}
+
+.nav-list-link:hover,
+.credits-list-link:hover {
+  color: #2c8fcc;
+  text-decoration: underline;
+  text-decoration-color: #2c8fcc;
+}
+
+/* HOME STYLES */
+
+.main-content {
+  height: 100vh;
+  padding: 5rem 2.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  color: #fff;
+  background-image: url("/images/warlen-g-vasco-qANdy1dYvAU-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    padding: 10rem 2.5rem;
+  }
+}
+
+.main-title,
+.main-description,
+.main-btn {
+  display: inline-flex;
+  align-self: center;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 1;
+}
+
+.main-title-dot {
+  font-size: 3.4rem;
+  line-height: .78;
+}
+
+.main-description {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 5rem;
+  }
+
+  .main-title-dot {
+    font-size: 5.4rem;
+  }
+
+  .main-description {
+    font-size: 1.6rem;
+  }
+}
+
+.main-btn {
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: .875rem 1.25rem;
+  color: #fff;
+  background-color: #2c8fcc;
+}
+
+.main-btn:hover {
+  background-color: #000;
+}
+
+
+/* GALLERY STYLES */
+
+.grid-container {
+  height: 100vh;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    padding: 5rem 2.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-top: 1px solid #2c8fcc;
+    border-bottom: 1px solid #444;
+  }
+}
+
+.grid-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: fade-in 2s ease-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.grid-item:nth-child(1) {
+    background-image: url("/images/anton-repponen-3MNzGlQM7qs-unsplash.jpg");
+  }
+  
+  .grid-item:nth-child(2) {
+    background-image: url("/images/casey-horner-fsJB3KT2rj8-unsplash.jpg");
+  }
+  
+  .grid-item:nth-child(3) {
+    background-image: url("/images/szabo-viktor-28ZbKOWiZfs-unsplash.jpg");
+  }
+  
+  .grid-item:nth-child(4) {
+    background-image: url("/images/spencer-watson-p0Yupww_SNM-unsplash.jpg");
+  }
+  
+  .grid-item:nth-child(5) {
+    background-image: url("/images/medena-rosa-CUG7Z1MBqu8-unsplash.jpg");
+  }
+  
+  .grid-item:nth-child(6) {
+    background-image: url("/images/jeremy-bishop-B3hNQbPSg0I-unsplash.jpg");
+  }
+
+@media (min-width: 768px) {
+  .grid-item:nth-child(1) {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: span 4;
+    grid-column-end: 3;
+  }
+  
+  .grid-item:nth-child(2) {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: span 2;
+    grid-column-end: 4;
+  }
+  
+  .grid-item:nth-child(3) {
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: span 2;
+    grid-column-end: 5;
+  }
+  
+  .grid-item:nth-child(4) {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-row-end: span 4;
+    grid-column-end: 5;
+  }
+  
+  .grid-item:nth-child(5) {
+    grid-row-start: span 4;
+    grid-column-start: 1;
+    grid-row-end: span 5;
+    grid-column-end: 2;
+  }
+  
+  .grid-item:nth-child(6) {
+    grid-row-start: span 4;
+    grid-column-start: 2;
+    grid-row-end: span 5;
+    grid-column-end: 2;
+  }
+
+  .grid-item.full-grid {
+    z-index: 0;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: span 6;
+    grid-column-end: 5;
+    animation: expand 1s ease-out;
+  }
+
+  @keyframes expand {
+    0% {
+      opacity: 0;
+    }
+  
+    20% {
+      opacity: 0.5;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+
+/* ABOUT */
+
+.main-content.about {
+  background-image: url("/images/jordan-steranka-2-MmXpeN8YE-unsplash.jpg");
+  padding: 5rem;
+}
+
+@media (min-width: 768px) {
+  .main-content.about {
+    padding: 15rem;
+  }
+}
+
+
+/* 404 */
+
+.main-content.error {
+  color: #000;
+  background-image: url("/images/tomas-bankauskas-xyzc3eNA2Wg-unsplash.jpg");
+  padding: 5rem;
+}
+
+@media (min-width: 768px) {
+  .main-content.error {
+    padding: 15rem;
+  }
+}
