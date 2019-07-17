@@ -159,9 +159,12 @@
 }
 
 .grid-item {
+  height: 40vh;
+  cursor: pointer;
+  background-position: 50% 25%;
   background-size: cover;
   background-repeat: no-repeat;
-  animation: fade-in 2s ease-out;
+  animation: fade-in 2s ease-in-out;
 }
 
 @keyframes fade-in {
@@ -174,29 +177,35 @@
   }
 }
 
+@media (min-width: 768px) {
+  .grid-item {
+    height: auto;
+  }
+}
+
 .grid-item:nth-child(1) {
-    background-image: url("/images/anton-repponen-3MNzGlQM7qs-unsplash.jpg");
-  }
-  
-  .grid-item:nth-child(2) {
-    background-image: url("/images/casey-horner-fsJB3KT2rj8-unsplash.jpg");
-  }
-  
-  .grid-item:nth-child(3) {
-    background-image: url("/images/szabo-viktor-28ZbKOWiZfs-unsplash.jpg");
-  }
-  
-  .grid-item:nth-child(4) {
-    background-image: url("/images/spencer-watson-p0Yupww_SNM-unsplash.jpg");
-  }
-  
-  .grid-item:nth-child(5) {
-    background-image: url("/images/medena-rosa-CUG7Z1MBqu8-unsplash.jpg");
-  }
-  
-  .grid-item:nth-child(6) {
-    background-image: url("/images/jeremy-bishop-B3hNQbPSg0I-unsplash.jpg");
-  }
+  background-image: url("/images/anton-repponen-3MNzGlQM7qs-unsplash.jpg");
+}
+
+.grid-item:nth-child(2) {
+  background-image: url("/images/casey-horner-fsJB3KT2rj8-unsplash.jpg");
+}
+
+.grid-item:nth-child(3) {
+  background-image: url("/images/szabo-viktor-28ZbKOWiZfs-unsplash.jpg");
+}
+
+.grid-item:nth-child(4) {
+  background-image: url("/images/spencer-watson-p0Yupww_SNM-unsplash.jpg");
+}
+
+.grid-item:nth-child(5) {
+  background-image: url("/images/medena-rosa-CUG7Z1MBqu8-unsplash.jpg");
+}
+
+.grid-item:nth-child(6) {
+  background-image: url("/images/jeremy-bishop-B3hNQbPSg0I-unsplash.jpg");
+}
 
 @media (min-width: 768px) {
   .grid-item:nth-child(1) {
@@ -240,28 +249,29 @@
     grid-row-end: span 5;
     grid-column-end: 2;
   }
+}
 
-  .grid-item.full-grid {
-    z-index: 0;
-    grid-row-start: 1;
-    grid-column-start: 1;
-    grid-row-end: span 6;
-    grid-column-end: 5;
-    animation: expand 1s ease-out;
+.grid-item.full-grid {
+  z-index: 0;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: span 6;
+  animation: expand 2s ease-in-out;
+}
+
+@keyframes expand {
+  0% {
+    opacity: 0;
   }
 
-  @keyframes expand {
-    0% {
-      opacity: 0;
-    }
-  
-    20% {
-      opacity: 0.5;
-    }
-  
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-item.full-grid {
+    grid-column-end: 5;
   }
 }
 
