@@ -1,0 +1,38 @@
+.main {
+  background-image: linear-gradient(rgb(168, 221, 98), rgb(54, 54, 53));
+}
+.header .nav-wrapper nav a {
+  color: rgb(245, 248, 250);
+}
+.content h1 {
+  margin: 0;
+}
+
+.imgarkanoid {
+  max-width: 100%;
+}
+
+.sectiontitle {
+  font-size: 20px;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+.other .sectiontitle {
+  text-align: right;
+}
+
+.project > div {
+  width: 48%;
+}
+
+.text {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.project {
+  display: flex;
+  align-items: unset;
+  justify-content: space-between;
+  padding-top: 20px;
+}

@@ -1,0 +1,56 @@
+.main {
+  background-image: linear-gradient(rgb(141, 139, 139), rgb(54, 54, 53));
+}
+.header .nav-wrapper nav a {
+  color: aqua;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.content .left-content {
+  width: 44%;
+
+  padding: 5px;
+}
+.content .right-content {
+  width: 56%;
+  padding: 5px;
+  border-left: 5px solid white;
+}
+
+.content .right-content .hello {
+  text-align: center;
+}
+.content .right-content .hello h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.content .right-content .habilities {
+  margin-top: 250px;
+}
+.content .right-content .habilities li {
+  margin-top: 10px;
+}
+.content .right-content .habilities .hability-block h3 {
+  font-weight: bold;
+  color: rgb(48, 135, 211);
+}
+
+.content .left-content .code {
+  color: rgb(179, 27, 27);
+  font-family: 'Bungee Outline';
+  font-size: 25px;
+  font-weight: bold;
+}
+.plus-image-wrapper {
+  text-align: center;
+}
+.plus-image-wrapper img {
+  width: 80px;
+}

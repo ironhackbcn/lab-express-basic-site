@@ -1,0 +1,17 @@
+.main {
+  background-image: linear-gradient(rgb(231, 190, 76), rgb(54, 54, 53));
+}
+.header .nav-wrapper nav a {
+  color: rgb(245, 248, 250);
+}
+
+.logos img {
+  max-width: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+}
