@@ -3,6 +3,15 @@
   margin: 0;
 }
 
+footer {
+  background-color: #1e2434;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
 /*************** HOME PAGE ************/
 
 header {
@@ -24,7 +33,7 @@ nav {
 
 nav ul {
   list-style-type: none;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 nav ul li {
@@ -33,12 +42,74 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: none;
   color: #1e2434;
 }
 
 nav ul li a:hover {
   color: #32c3ff;
+}
+
+.checks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.checks img {
+  width: 50px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.checks p {
+  display: inline;
+}
+
+.main-pic {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.main-pic img {
+  border-radius: 6px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.course {
+  display: inline-block;
+  width: 25%;
+}
+
+.course h3 {
+  color: #32c3ff;
+  margin-bottom: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #1e2434;
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.btn:hover {
+  background-color: #32c3ff;
+  color: #1e2434;
+}
+
+#info {
+  text-align: center;
+  margin: 20px 10%;
 }
 
 /*************** PHOTO GALLERY ********/
