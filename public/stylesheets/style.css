@@ -1,4 +1,35 @@
+/* body { */
+/* color: rgb(0, 0, 0); */
+/* background-color: rgb(51, 156, 123); */
+/* } */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  color: rgb(0, 0, 0);
-  background-color: rgb(51, 156, 123);
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 0px;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(5, 65, 46);
+  margin: 0 auto;
 }

@@ -24,3 +24,11 @@ app.get("/", (request, response, next) => {
 app.get("/montseny", (request, response, next) => {
   response.sendFile(__dirname + "/views/about-page.html");
 });
+
+app.get("/gallery", (request, response, next) => {
+  response.sendFile(__dirname + "/views/photo-gallery.html");
+});
+
+app.get("/not-found", (request, response, next) => {
+  response.sendFile(__dirname + "/views/404.html");
+});
