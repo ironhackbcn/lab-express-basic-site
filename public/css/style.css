@@ -1,16 +1,60 @@
-body {
+* {
   font-family: "Calibri", sans-serif;
+  margin: 0;
 }
+
+/*************** HOME PAGE ************/
+
+header {
+  background-color: #1e2434;
+  color: white;
+  padding: 50px 0 50px 40px;
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+span {
+  color: #32c3ff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1e2434;
+}
+
+nav ul li a:hover {
+  color: #32c3ff;
+}
+
+/*************** PHOTO GALLERY ********/
+
+/*************** ABOUT ****************/
 
 /*************** ERROR ****************/
 
 .error-msg {
   display: block;
   margin: 50px 0 0 50px;
+  line-height: 3em;
 }
 
 .error-msg a {
-  color: cornflowerblue;
+  color: #32c3ff;
 }
 
 .error-icon {
