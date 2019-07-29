@@ -1,4 +1,18 @@
 body {
-  color: blue;
-  background-color: bisque;
+  font-family: "Calibri", sans-serif;
+}
+
+/*************** ERROR ****************/
+
+.error-msg {
+  display: block;
+  margin: 50px 0 0 50px;
+}
+
+.error-msg a {
+  color: cornflowerblue;
+}
+
+.error-icon {
+  width: 100px;
 }
