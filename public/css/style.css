@@ -49,6 +49,10 @@ nav ul li a:hover {
   color: #32c3ff;
 }
 
+.active {
+  color: #32c3ff;
+}
+
 .checks {
   display: flex;
   justify-content: center;
@@ -86,6 +90,7 @@ nav ul li a:hover {
 .course {
   display: inline-block;
   width: 25%;
+  margin-right: 10px;
 }
 
 .course h3 {
@@ -113,6 +118,29 @@ nav ul li a:hover {
 }
 
 /*************** PHOTO GALLERY ********/
+
+.big-picture {
+  border: 1px solid #32c3ff;
+  background-image: url("../img/bbq.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  margin: 15px 15%;
+  border-radius: 5px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.in-gallery img {
+  width: 250px;
+  height: 160px;
+  margin: 10px 20px;
+  border-radius: 5px;
+}
 
 /*************** ABOUT ****************/
 

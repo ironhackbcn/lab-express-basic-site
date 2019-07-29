@@ -2,13 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>IronWorld - photo gallery</title>
+    <title>IronWorld - gallery</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/img/logo.png" />
   </head>
   <body>
-    <h1>Photo gallery</h1>
-    <p>This is my third route</p>
+    <header>
+      <h1>Photo <span>gallery</span></h1>
+      <p>Check out our happy faces</p>
+    </header>
 
-    <a href="/">Back to Home</a>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a class="active" href="/photo">Photo gallery</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="big-picture" id="bg-pic"></div>
+    <div class="gallery">
+      <div class="in-gallery">
+        <img class="gallery-img" src="/img/bbq.jpg" />
+      </div>
+      <div class="in-gallery">
+        <img class="gallery-img" src="/img/speech.jpg" />
+      </div>
+      <div class="in-gallery">
+        <img class="gallery-img" src="/img/group.jpg" />
+      </div>
+    </div>
+    <footer>
+      &copy; Fake IronHack Copyright 2019 | IronHack BCN | Ale Bausa Express Lab
+    </footer>
+
+    <script src="/js/main.js"></script>
   </body>
 </html>
