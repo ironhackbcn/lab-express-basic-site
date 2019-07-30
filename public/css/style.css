@@ -144,6 +144,24 @@ nav ul li a:hover {
 
 /*************** ABOUT ****************/
 
+section {
+  display: block;
+  text-align: center;
+}
+
+section img {
+  width: 70%;
+}
+
+address {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.mapouter {
+  margin: 20px auto;
+}
+
 /*************** ERROR ****************/
 
 .error-msg {
