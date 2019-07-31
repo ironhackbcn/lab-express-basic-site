@@ -30,11 +30,10 @@ function closeMenuOption(event) {
   document.getElementById("open-menu").style.display = "block";
 }
 
-
-function screenSize(){
+function screenSize() {
   var width = window.innerWidth;
-  if (width>359 && width<768){
-    leftCloneMenu=-50;
-    leftCloneMenu=0;
-   }
+  if (width > 359 && width < 768) {
+    leftCloneMenu = -50;
+    leftCloneMenu = 0;
+  }
 }
