@@ -2,12 +2,13 @@ const express = require('express');
 
 const app = express();
 const path = require('path');
+const port = 3000;
 
 app.use = express.static('public');
 
-app.get('/', (request, response, next) => {
-  response.sendFile(path.join(__dirname, '/views/index.html'));
-  console.log(__dirname);
+app.get('/index', (request, response, next) => {
+  response.sendFile(__dirname+ '/views/index.html');
+  console.log (__dirname)
 });
 
 // app.get('/about', (request, response, next) => {
@@ -25,6 +26,6 @@ app.get('/', (request, response, next) => {
 //   console.log(__dirname);
 // });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('Server listening at port 3000');
 });
