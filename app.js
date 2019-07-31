@@ -1,9 +1,9 @@
-const express = require("express");
+const express = require('express');
 
 const app = express();
 
 // Make everything inside of public/ available
-app.use(express.static("public"));
+app.use(express.static('public'));
 
 // our first Route
 // app.get("/", (request, response, next) => {
@@ -12,21 +12,21 @@ app.use(express.static("public"));
 // });
 
 // our first Route:
-app.get("/", (request, response, next) => {
-  response.sendFile(__dirname + "/views/index.html");
+app.get('/', (request, response, next) => {
+  response.sendFile(`${__dirname}/views/index.html`);
 });
 
 // our second Route:
-app.get("/portfolio", (request, response, next) => {
-  response.sendFile(__dirname + "/views/portfolio.html");
+app.get('/portfolio', (request, response, next) => {
+  response.sendFile(`${__dirname}/views/portfolio.html`);
 });
 
 // our NOT FOUND Route:
-app.get("/*", (request, response, next) => {
-  response.sendFile(__dirname + "/views/not-found.html");
+app.get('/*', (request, response, next) => {
+  response.sendFile(`${__dirname}/views/not-found.html`);
 });
 
 // Server Started
 app.listen(3000, () => {
-  console.log("My first app listening on port 3000!");
+  console.log('My first app listening on port 3000!');
 });
