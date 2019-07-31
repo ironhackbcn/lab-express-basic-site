@@ -1,0 +1,170 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background-color: #041230;
+  box-sizing: border-box;
+}
+.super-container-wrapper-all {
+  width: 100%;
+  height: 100vh;
+  font-size: 2rem;
+  background-image: linear-gradient(rgba(4, 18, 48, 0.8), rgba(4, 18, 48, 0.8)),
+    url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* 0 to open menu*/
+.container-left {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  color: white;
+  font-size: 2.8rem;
+  background-color: #041230;
+  left: -50%;
+}
+
+.container-left nav {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100% auto;
+}
+
+.container-left ul li {
+  display: inline-block;
+  padding: 12% auto;
+  text-align: center;
+  width: 100;
+  margin: 12% 0;
+}
+
+button,
+select {
+  margin-left: 375%;
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.container-left a,
+.container-left a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.container-right {
+  width: 100%;
+  height: 100%;
+  color: white;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: transparent;
+  align-items: center; /* Or center when the menu is hide*/
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container-left ul {
+  width: 100%;
+  height: 50%;
+}
+
+.container-foto {
+  margin: 0 0 0 0;
+}
+.me-circular {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 10px solid #666;
+}
+
+.me-circular img {
+  margin-left: -47%;
+}
+
+.name {
+  font-weight: lighter;
+  font-size: 2rem;
+  margin: 0 0 0 0;
+}
+#open-menu {
+  color: yellow;
+  background: transparent;
+}
+
+#close-menu {
+  display: none;
+  color: yellow;
+  background: transparent;
+}
+
+.yellow {
+  color: #e3872d;
+}
+
+.white {
+  color: #ffffff;
+}
+/* .colors{
+  color: #041230;   azul muy oscuro
+  color: #B3851B   color complementario
+  color:  #666;  gris mitja
+} */
+.iam {
+  font-weight: lighter;
+  margin: 0 0 0 0;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.portfolio{
+  width:80%;
+  display:flex;
+  flex-direction:column;
+}
+
+.work{
+  width:33%;
+  height:33%;
+  border:3px dotted red;
+  background-color:white;
+}
+
+@media (min-width: 359px) and (max-width: 767) {
+}
+@media (min-width: 768px) and (max-width: 961px) {
+}
+
+@media (min-width: 961px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1200px) {
+  .container-left {
+    left: 0;
+  }
+  #open-menu,
+  #close-menu {
+    display: none;
+  }
+  h3 {
+    font-size: 4rem;
+  }
+}
