@@ -4,6 +4,7 @@
   "description": "![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)\r # Express Basic Website",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/JuanVicenteVazquezG/lab-express-basic-site#readme",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.17.1"
   },
   "keywords": [],
@@ -24,5 +26,12 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.2"
+=======
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
+>>>>>>> b83242c77c8c999040a2a191e19bad4cfcf38b0f
   }
 }
