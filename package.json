@@ -18,20 +18,13 @@
   },
   "homepage": "https://github.com/JuanVicenteVazquezG/lab-express-basic-site#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "path": "^0.12.7"
   },
-  "keywords": [],
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.2"
-=======
-    "express": "^4.17.1",
-    "nodemon": "^1.19.1"
-  },
-  "devDependencies": {
-    "eslint": "^6.1.0"
->>>>>>> b83242c77c8c999040a2a191e19bad4cfcf38b0f
   }
 }
