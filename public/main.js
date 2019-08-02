@@ -8,7 +8,7 @@ function fadeIn(character) {
   //   }, 200);
   // }
   var interval = setInterval(() => {
-    var background = document.getElementById('container');
+    const background = document.getElementById('container');
 
     if (background.style.background === 'black') {
       clearInterval(interval);
@@ -20,13 +20,13 @@ function fadeIn(character) {
 }
 
 function randomCharacter() {
-  var characters = document.getElementsByTagName('span');
-  var charactersArray = [...characters];
+  const characters = document.getElementsByTagName('span');
+  const charactersArray = [...characters];
 
   for (let i = 0; i < characters.length; i++) {
-    let randomNumber = Math.floor(Math.random() * charactersArray.length);
+    const randomNumber = Math.floor(Math.random() * charactersArray.length);
 
-    var interval = setInterval(fadeIn(charactersArray[randomNumber]), 1000);
+    const interval = setInterval(fadeIn(charactersArray[randomNumber]), 1000);
 
     charactersArray.splice(randomNumber, 1);
 
@@ -40,20 +40,20 @@ function randomCharacter() {
 }
 
 function startMain() {
-  var separationBar = document.getElementById('separation-bar');
-  var divLinks = document.getElementById('wrapper-2');
-  var background = document.getElementById('container');
-  var charactersName = document.getElementById('wrapper-1');
+  const separationBar = document.getElementById('separation-bar');
+  const divLinks = document.getElementById('wrapper-2');
+  const background = document.getElementById('container');
+  const charactersName = document.getElementById('wrapper-1');
 
   setTimeout(() => {
     separationBar.style.opacity = 1;
     divLinks.style.opacity = 1;
     background.style.backgroundColor = 'black';
     charactersName.style.color = 'white';
-  }, 6000);
+  }, 2000);
 }
 
-window.onload = function() {
+window.onload = function () {
   randomCharacter();
   startMain();
 };
