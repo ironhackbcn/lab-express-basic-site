@@ -11,23 +11,23 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '/views/index.html'));
 });
 
-app.get('/about.html', (req, res) => {
+app.get('/about', (req, res) => {
   res.sendFile(path.join(__dirname, '/views/about.html'));
 });
 
-app.get('/portfolio.html', (req, res) => {
+app.get('/portfolio', (req, res) => {
   res.sendFile(path.join(__dirname, '/views/portfolio.html'));
 });
 
-app.get('/contact.html', (req, res) => {
+app.get('/contact', (req, res) => {
   res.sendFile(path.join(__dirname, '/views/contact.html'));
 });
 
-app.get('/404.html', (req, res) => {
+app.get('/404', (req, res) => {
   res.status(404).sendFile(path.join(__dirname, '/views/404.html'));
 });
 
-app.get('/index.html', (req, res) => {
+app.get('/index', (req, res) => {
   res.sendFile(path.join(__dirname, '/views/index.html'));
 });
 
