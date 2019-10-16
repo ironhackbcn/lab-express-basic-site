@@ -1,0 +1,140 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+
+}
+
+
+body{
+    background-color: #fefffa
+}
+
+ul{
+    list-style: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul>li{
+    display: inline;
+    padding: 20px 0px 0px 0px;
+
+}
+ul>li>a{
+    margin: 0px 4px 0px 4px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: coral;
+    text-decoration: none;
+}
+
+.llama-intro{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    
+}
+
+.llama-intro>h1{
+    margin: 0 auto;
+    font-weight: 800;
+
+}
+
+.llama-intro>p{
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+em{
+    background-color: coral;
+    font-weight: 400;
+
+}
+
+.llama-gif{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    
+}
+
+.llama-about{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    
+}
+
+.llama-about>img{
+    margin: 0px auto;
+    
+}
+
+.llama-about>h1{
+    margin: 0px auto 20px auto;
+    font-weight: 800;
+
+
+}
+
+.llama-about>p{
+    width: 50%;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: justify;
+    font-weight: 300;
+
+}
+
+.llama-gallery{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    
+}
+.llama-gallery>h1{
+    margin: 0px auto 20px auto;
+    font-weight: 800;
+    
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    margin: 20px auto;
+}
+
+.row3>img{
+    width: 30%;
+    padding: 10px;
+}
+
+.text{
+    
+        display: none;
+        z-index:100;
+        position:absolute;    
+        color:black;
+        font-size:24px;
+        font-weight:bold;
+        
+    
+}
+
+.not{
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 800;
+}
