@@ -12,7 +12,7 @@
     flex-direction: column;
     
     align-items: center;
-    margin:50px auto;
+    margin:0 auto;
     
 }
 .title{
@@ -43,6 +43,7 @@
 .container-galery div div img{
     width: 300px;
     height: 270px;
+    border: solid white 1px;
    
     
 }
@@ -59,13 +60,17 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    border: solid white 2px;
     width: 23%;
     
 }
 
 .div-img span{
-    padding-top: 20px;
+    padding: 20px 0;
     font-weight: bold;
+    background-color: black;
+    width: 100%;
+    text-align: center;
 }
 
 .parrafos {
