@@ -14,7 +14,7 @@ app.get('/about', (request, response, next) => {
 app.get('/gallery', (request, response, next) => {
     response.sendFile(__dirname + '/views/gallery.html');
 });
-app.get('/error', (request, response, next) => {
+app.get('/*', (request, response, next) => {
     response.sendFile(__dirname + '/views/notFoundpage.html');
 });
 

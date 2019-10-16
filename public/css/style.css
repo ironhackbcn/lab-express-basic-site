@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #403D38;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    height: max-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+h1{
+    color: #fbca05;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 30rem;
+    height: 520px;
+}
+a{
+    text-decoration: none;
+    color: #403D38
+}
+
+a:hover{
+    color: #fbca05;
+}
+
+p{
+    font-size: 1.15rem;
+    line-height: 25px;
+    text-align: justify;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: #fbca05;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 25px auto;
+}
+span{
+    color: #fbca05;
+    font-weight: 700;
+}
+h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-bottom: 2px solid #fbca05;
+    padding-bottom: 10px;
+}
+/*NAVBAR*/
+nav>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly
+}
+nav>ul>li{
+    font-size: 1.5rem;
+}
+
+/*ABOUT*/
+
+.foto{
+    border-radius: 50%;
+    background-image: url(../images/Douglas_adams_portrait_cropped.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+/*GALLERY*/
+
+article>div{
+    display: flex;
+    justify-content: space-between;
+}
+article>div>img, article>div>p{
+    margin: 25px 10px;
+}
+
+.portada{
+    filter: grayscale(100%)
+}
+.portada:hover{
+    filter: none;
+}
