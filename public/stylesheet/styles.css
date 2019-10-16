@@ -1,0 +1,21 @@
+body {
+    color: blue;
+    background-color: beige;
+}
+
+.welcome {
+    justify-content: center;
+    padding: 3% 10% 3% 10%;
+}
+
+.title {
+    color: green;
+    margin-left: 5%;
+}
+
+.story {
+    display: flex;
+    align-content: center;
+    color: rgb(109, 18, 237);
+    padding: 0% 5% 5% 5%;
+}
