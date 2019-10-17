@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    padding: 5%;
+    font-size: 7em;
+}
+
+h2{
+    margin: 2%;
+    font-size: 4em;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/header-bg.jpg) no-repeat center;
+    background-size: 100% 100%;
+    filter: opacity(0.8) saturate(1.5);
+}
+
+.home-container{
+    position:relative;
+    left: 25px;
+    display:flex;
+    justify-content: space-around ;
+    width: 55%;
+    font-size: 3em;
+}
+
+header h3{
+    margin-top: 5%;
+    height: 70px;
+    width: 28%;
+    padding: 2%;
+    background: white;
+    filter: opacity(0.4);
+    text-align: center;
+}
+
+header a:hover{
+    font-size: 1.1em
+}
+
+/* CITIES */
+
+#cities{
+    height: 100vh;
+    background: url(../images/header-bg.jpg) no-repeat center;
+    background-size: 100% 100%;
+    filter: opacity(0.8) saturate(1.5);
+}
+
+#cities-container{
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.city{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vw;
+    height: 20vw;
+    width: 30vw;   
+    border: 3px solid black;
+}
+
+.los-angeles{
+    background: url("/images/los-angeles.JPG") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.san-francisco{
+    background: url("/images/san-francisco.JPG") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.san-diego{
+    background: url("/images/san-diego.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.hotel{
+    background: url("/images/hotel.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.weather{
+    background: url("/images/weather.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+.food{
+    background: url("/images/food.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
+
+
+.city h3{
+    position: absolute;
+    font-size: 3em;
+    padding: 3%;
+    width: 100%;
+    height: 100%;
+}
+
+.city h3:hover{
+    color: transparent;
+    background: none;
+}
+
+.underground{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 15%;
+    font-size: 1.7em;
+    z-index: -1;
+    background: rgba(238, 232, 170, 0.4);
+}
+
+.underground p{
+    opacity: 1;
+    padding: 2%;
+}
+
+.underground button{
+    margin: 3%;
+    width: 100px;
+    height: 50px;
+    font-size: 0.8em;
+    font-family: 'Ubuntu';
+    background-color:rgba(153, 153, 253, 0.603);
+    border: 2px solid blue;
+}
+
+/* About */
+
+#about-container{
+    display: flex;
+}
+
+#about-container .city{
+    
+}
