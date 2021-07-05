@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-logo {
+  width: 30%;
+  height: 30%;
+}
+
+.container-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-column nav {
+  justify-content: space-between;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+  margin-right: 15px;
+}
