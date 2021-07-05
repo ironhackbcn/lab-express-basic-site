@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #CEFF1A;
+  /*display: flex;*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* justify-content: center;
+  align-items: center; */
+}
+#hello{
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hello-button{
+  font-size: 30px;
+}
