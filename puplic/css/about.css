@@ -1,0 +1,31 @@
+.current-character{
+  background: black;
+  color: white;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+
+.current-character img{
+  height: 350px;
+  width: auto;
+  line-height: 400px;
+}
+
+h1{
+  font-size: 2em;
+  padding: 50px;
+}
+
+.description{
+  padding-right: 50px;
+  width: 50%;
+}
+
+.description p{
+  font-size: 0.8em;
+  text-align: justify;
+}

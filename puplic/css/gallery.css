@@ -1,0 +1,16 @@
+.photos{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.photos div{
+  padding: 20px;
+  width: 30%;
+  height: auto;
+}
+
+.photos img{
+  width: 100%;
+  height: auto
+}
