@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: blue;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+}
+
+footer p {
+}
+
+.header {
+  display: block;
+  box-shadow: 10px 10px 10px #11111155;
+}
+
+.header a {
+  color: yellow;
+  text-decoration: none;
+  font-size: 1.4em;
+  padding: 0 2%;
+}
+
+.logo {
+  background-image: url("../image/logo.png");
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 0 auto;
+  padding: 80px;
+}
+
+.header-right {
+  display: block;
+  width: 90%;
+  text-align: right;
+  padding: 20px;
+  color: white;
+}
+
+.active {
+  text-align: center;
+  /* padding: 20px; */
+  color: white;
+}
+
+.desc {
+  text-align: center;
+  color: white;
+  padding: 5% 20%;
+  height: 0 auto;
+  /* width: 50%; */
+}
+
+.desc p,h1 {
+  text-align: left;
+  color: white;
+  height: 0 auto;
+}
+
+
+footer{
+  color: white;
+  padding: 5% 20%;
+
+}
+
+footer a{
+  color: yellow;
+  padding: 5% 20%;
+}
+
+
+footer p{
+  color: white;
+  /* padding: 5% 20%; */
+}
+
+footer span{
+  color: yellow;
+  /* padding: 5% 20%; */
+}
+
+.images ul li img {
+  width: 100%;
+  height: auto;
+}
+
+
+.images ul li {
+  display: inline-block;
+  width: 33%;
+}
+
+
