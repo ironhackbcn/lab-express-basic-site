@@ -1,0 +1,54 @@
+html {
+  width: 98vw;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  width: 98vw;
+  min-height: 100vh;
+  background: #f46b45;  
+  background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eea849, #f46b45);
+  color: white;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3rem;
+  padding: 5px 0 15px 0;
+  margin: 0;
+  text-align: center;
+}
+
+#photo-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width: 31%;
+  min-width: 200px;
+}
+
+img {
+  width: 100%;
+  height: 95%;
+  padding-bottom: 20px;
+}
+
+/******************* MEDIA QUERIES *************************/
+
+@media (max-width: 629px) {
+  .photo {
+    width: 45%;
+  }
+}
+
+@media (max-width: 425px) {
+  .photo {
+    width: 90%;
+  }
+}
+

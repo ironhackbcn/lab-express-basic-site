@@ -1,0 +1,24 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 98vw;
+  min-height: 100vh;
+  background: #f46b45;  
+  background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eea849, #f46b45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 5rem;
+  padding: 0 30px;
+}
